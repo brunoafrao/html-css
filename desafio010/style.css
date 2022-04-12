@@ -1,0 +1,84 @@
+@font-face {
+    font-family:'idroid';
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: rgba(67, 167, 67, 0.658);
+}
+main{
+    position: absolute;
+    background-color: white;
+  
+    
+    
+}
+header{
+   background-color: rgba(16, 122, 16, 0.658);
+   padding: 0px;
+   margin: -31px -4px -19px -8px;
+   height: 200px;
+    
+}
+header > h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+    color: white;   
+    
+}
+header>p{
+    text-align: center;
+    color: white;
+    font-size: larger;
+
+}
+nav{
+    display: inline;
+    height: 119px;
+    border-top: 20px;
+}
+
+.configp{
+    font-family: 'Arial', Courier, monospace;
+    text-align:justify;
+
+}
+nav>a{
+    position: relative;
+    top: 17px;
+    left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 6px;
+    text-decoration: none; 
+    
+}
+nav>a:hover{
+    background-color: green;
+    color: rgb(109, 218, 109);
+    margin: 2px 2px 2px 2px;
+    border-radius: 3px;
+}
+main{
+    margin: 20px 0px 20px 0px;
+}
+
+article > h1{
+    position: absolute;
+    top: 10px;
+    font-family: 'idroid';
+    color: rgb(1, 75, 1);
+    font-weight:lighter;
+    font-size: 2em;
+}
+.tudo{
+    font-family: 'idroid','Times New Roman', Times, serif;
+    background-image: linear-gradient(to right,#8bc7a5,#b8f1d1,#a6e6c4,#c5f8dbd3,#d7f5e6);
+    font-size: 1em;
+    font-weight: lighter;
+}
+
